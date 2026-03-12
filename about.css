@@ -48,20 +48,20 @@ nav a{
     margin: 0 auto;
 
 }
-.menu-ind:hover{
+.menu-ind:hover a{
     border-top: 5px solid #4c8;
     background-color: rgba(64,200, 130, 0.15);
 
 }
-.menu-exp:hover{
+.menu-exp:hover a{
     border-top: 5px solid #f1dc4f;
     background-color: rgba(241, 211, 79, 0.15);
 }
-.menu-hob:hover{
+.menu-hob:hover a{
     border-top: 5px solid #0070bb;
     background-color: rgba(0, 112, 192, 0.15);
 }
-.menu-con:hover{
+.menu-con:hover a{
     border-top: 5px solid #e44d26;
     background-color: rgba(228, 77, 38, 0.15);
 }
