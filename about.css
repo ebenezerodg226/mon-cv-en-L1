@@ -153,6 +153,41 @@ img{
         padding: 5px 10px 10px 10px;
     }
  }
+ /* Disposition par défaut (desktop) */
+.left, .right {
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive pour mobile : garde côte à côte */
+@media screen and (max-width: 600px) {
+    .left, .right {
+        width: 48%;       /* légèrement réduit pour tenir sur petit écran */
+        margin: 1%;       /* espace entre les blocs */
+        box-sizing: border-box; /* inclut le padding dans la largeur */
+        padding: 5px;     /* espace à l'intérieur pour que le texte respire */
+    }
+
+    body {
+        font-size: 12px;  /* réduit légèrement le texte */
+        line-height: 1.4; /* espace entre les lignes */
+    }
+
+    h1, h2, h3 {
+        font-size: 1em;   /* adapte les titres */
+    }
+
+    img {
+        max-width: 100%;  /* images s’adaptent */
+        height: auto;
+    }
+}
 
 
 
